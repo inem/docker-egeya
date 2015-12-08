@@ -1,5 +1,5 @@
 FROM progrium/busybox
-RUN opkg-install curl unzip mysql-client
+RUN opkg-install curl unzip
 ENV EGEYA_VERSION 2858
 
 RUN mkdir /egeya
