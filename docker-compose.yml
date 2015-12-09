@@ -29,7 +29,7 @@ php:
 web:
   image: mprokopov/egeya_nginx
   environment:
-    - VIRTUAL_HOST=egeya.dev
+    - VIRTUAL_HOST=egeya.test
   links:
     - php
   ports:
